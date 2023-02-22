@@ -3,13 +3,18 @@
     <el-form class="login-form">
       <h3 class="title">若依后端管理系统</h3>
       <el-form-item>
-        <el-input placeholder="账号"></el-input>
-      </el-form-item>
-      <el-form-item>
-        <el-input placeholder="密码"></el-input>
+        <el-input
+            size="large"
+            placeholder="账号"></el-input>
       </el-form-item>
       <el-form-item>
         <el-input
+            size="large"
+            placeholder="密码"></el-input>
+      </el-form-item>
+      <el-form-item>
+        <el-input
+            size="large"
             placeholder="验证码"
             style="width: 63%"
         ></el-input>
@@ -24,7 +29,7 @@
             type="primary"
             size="large"
         >
-          登录
+          登 录
         </el-button>
       </el-form-item>
     </el-form>
