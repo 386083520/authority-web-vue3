@@ -5,19 +5,37 @@
       <el-form-item>
         <el-input
             size="large"
-            placeholder="账号"></el-input>
+            placeholder="账号">
+          <template #prefix>
+            <el-icon :size="15">
+              <User />
+            </el-icon>
+          </template>
+        </el-input>
       </el-form-item>
       <el-form-item>
         <el-input
             size="large"
-            placeholder="密码"></el-input>
+            placeholder="密码">
+          <template #prefix>
+            <el-icon :size="15">
+              <Lock />
+            </el-icon>
+          </template>
+        </el-input>
       </el-form-item>
       <el-form-item>
         <el-input
             size="large"
             placeholder="验证码"
             style="width: 63%"
-        ></el-input>
+        >
+          <template #prefix>
+            <el-icon :size="15">
+              <Discount />
+            </el-icon>
+          </template>
+        </el-input>
         <div class="login-code">
           图片
         </div>
